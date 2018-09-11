@@ -1,0 +1,22 @@
+{# app/Resources/views/lucky/number.html.twig #}
+{% extends 'base.html.twig' %}
+
+{% block body %}
+    <div id="wrapper">
+        <div id="container">
+            <div id="welcome">
+                <h1>Your lucky number is {{ number }}</h1>
+            </div>
+        </div>
+    </div>
+{% endblock %}
+
+{% block stylesheets %}
+<link rel="stylesheet" href="{{ asset('css/bootstrap-italia.min.css') }}" />
+<link rel="stylesheet" href="{{ asset('css/italia-icon-font.css') }}" />
+{% endblock %}
+
+{% block javascripts %}
+<script src="{{ asset('js/bootstrap-italia.bundle.min.js') }}"></script>
+<script src="{{ asset('js/bootstrap-italia.min.js') }}"></script>
+{% endblock %}
