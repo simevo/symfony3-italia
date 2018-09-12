@@ -2,12 +2,97 @@
 {% extends 'base.html.twig' %}
 
 {% block body %}
-    <div id="wrapper">
-        <div id="container">
-            <div id="welcome">
+
+<div class="card-body">
+              <h5 class="card-title border-bottom border-italia">Intestazioni</h5>
+              <div class="card-text">
                 <h1>Your lucky number is {{ number }}</h1>
+                <h2>h2. Intestazione</h2>
+                <h3>h3. Intestazione</h3>
+                <h4>h4. Intestazione</h4>
+                <h5>h5. Intestazione</h5>
+                <h6>h6. Intestazione</h6>
+              </div>
+</div>
+<div class="card-body">
+    <button type="button" class="btn btn-primary">Primary</button>
+    <button type="button" class="btn btn-secondary">Secondary</button>
+    <button type="button" class="btn btn-success">Success</button>
+    <button type="button" class="btn btn-danger">Danger</button>
+    <button type="button" class="btn btn-warning">Warning</button>
+    <button type="button" class="btn btn-info">Info</button>
+    <button type="button" class="btn btn-light">Light</button>
+    <button type="button" class="btn btn-dark">Dark</button>
+    <button type="button" class="btn btn-link">Link</button>
+</div>
+<div class="card-body">
+    <div class="btn-group btn-group-toggle" data-toggle="buttons">
+      <label class="btn btn-secondary active">
+        <input type="radio" name="options" id="option1" autocomplete="off" checked> Active
+      </label>
+      <label class="btn btn-secondary">
+        <input type="radio" name="options" id="option2" autocomplete="off"> Radio
+      </label>
+      <label class="btn btn-secondary">
+        <input type="radio" name="options" id="option3" autocomplete="off"> Radio
+      </label>
+    </div>
+</div>
+<div class="card-body">
+    <nav class="breadcrumb-container" aria-label="breadcrumb">
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="#">Home</a><span class="separator">/</span>
+        </li>
+        <li class="breadcrumb-item"><a href="#">Subsection</a><span class="separator">/</span>
+        </li>
+        <li class="breadcrumb-item active" aria-current="page"><a href="#">Current section</a>
+        </li>
+      </ol>
+    </nav>
+</div>
+<div class="card w-50">
+  <div class="card-body">
+    <h4 class="card-title">Titolo esempio Card</h4>
+    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+    <a href="#" class="btn btn-primary">Vai avanti</a>
+  </div>
+</div>
+
+<div class="card-body">
+              <h5 class="card-title border-bottom border-italia">Righe alternate</h5>
+              <div class="table-responsive">
+                <table class="table table-striped">
+                  <thead>
+                    <tr>
+                      <th scope="col">#</th>
+                      <th scope="col">Nome</th>
+                      <th scope="col">Cognome</th>
+                      <th scope="col">Username</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <th scope="row">1</th>
+                      <td>Mario</td>
+                      <td>Verdi</td>
+                      <td>mario.verdi</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">2</th>
+                      <td>Francesco</td>
+                      <td>Bianchi</td>
+                      <td>francesco.bianchi</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">3</th>
+                      <td>Alessandro</td>
+                      <td>Rossi</td>
+                      <td>alessandro.rossi</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
             </div>
-        </div>
     </div>
 {% endblock %}
 
