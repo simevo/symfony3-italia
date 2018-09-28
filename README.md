@@ -25,10 +25,11 @@ composer install
 
 ### Dipendenze  
 L'esempio include
-javascript: 
+javascript:
 - bootstrap-italia.bundle.min.js Bootstrap Italia v0.10.3
 - bootstrap-italia.min.js Bootstrap Italia v0.10.3
 - holder.js Holder js v2.9
+
 css:
 - bootstrap-italia.min.css Bootstrap Italia v0.10.3
 
