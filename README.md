@@ -23,6 +23,15 @@ composer install
 
   3. Arresta il server web built-in di symfony con il comando `php bin/console server:stop`
 
+### Dipendenze  
+L'esempio include
+javascript: 
+- bootstrap-italia.bundle.min.js Bootstrap Italia v0.10.3
+- bootstrap-italia.min.js Bootstrap Italia v0.10.3
+- holder.js Holder js v2.9
+css:
+- bootstrap-italia.min.css Bootstrap Italia v0.10.3
+
 ## Autori
 
 Riccardo Mariani e Paolo Greppi (simevo s.r.l.)
