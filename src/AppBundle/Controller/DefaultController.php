@@ -58,6 +58,22 @@ class DefaultController extends Controller
     {
         return $this->render('default/comuni.html.twig', [
         ]);
-    }        
+    }
+    /**
+     * @Route("/starter", name="starter")
+     */       
+    public function starter()
+    {
+        return $this->render('default/starter.html.twig', [
+        ]);
+    }
+    /**
+     * @Route("/jumbotron", name="jumbotron")
+     */       
+    public function jumbotron()
+    {
+        return $this->render('default/jumbotron.html.twig', [
+        ]);
+    }
 }
 

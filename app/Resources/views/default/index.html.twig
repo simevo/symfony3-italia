@@ -2,59 +2,75 @@
 {% block title %} | Esempi{% endblock %}
 {% block body %}
 
+
 <div class="container my-5">
   <main class="bd-content">
-    <h1 class="bd-title" id="content">Esempi</h1>
-    <p class="bd-lead"></p>
-  <p>Di seguito sono riportati alcuni esempi per il corretto utilizzo dei componenti, secondo le linee guida di design.</p>
-  
+    <h1 class="bd-title" id="content">symfony3-italia: Template symfony3 conforme alle linee guida di design per i servizi web della PA</h1>
+    <p class="bd-lead">
+      <a href="https://github.com/simevo/symfony3-italia">Codice sorgente</a>
+    </p>
+
+    <h2>Esempi da bootstrap-italia:</h2>
+
     <div class="row">
       <div class="col-sm-6 col-md-4 col-xl-3 mb-3">
         <a href="{{ path('kitchen-sink') }}" class="">
-          <img class="img-thumbnail mb-3" src="https://italia.github.io//bootstrap-italia/docs/esempi/screenshots/kitchen-sink.png" alt="Kitchen-Sink screenshot" width="960" height="600">
+          <img class="img-thumbnail mb-3" src="screenshots/kitchen-sink.png" alt="Kitchen-Sink screenshot" width="960" height="600">
           <h5 class="mb-1">Kitchen-Sink</h5>
         </a>
         <p class="text-muted">Una lunghissima pagina di test che mostra tutti i principali componenti.</p>
       </div>
-    
-  
-    
+      
       <div class="col-sm-6 col-md-4 col-xl-3 mb-3">
         <a href="{{ path('carousel') }}" class="">
-          <img class="img-thumbnail mb-3" src="https://italia.github.io//bootstrap-italia/docs/esempi/screenshots/carousel.png" alt="Carousel screenshot" width="960" height="600">
+          <img class="img-thumbnail mb-3" src="screenshots/carousel.png" alt="Carousel screenshot" width="960" height="600">
           <h5 class="mb-1">Carousel</h5>
         </a>
         <p class="text-muted">Un esempio di corretto utilizzo del componente Carousel.</p>
       </div>
     
-  
-    
       <div class="col-sm-6 col-md-4 col-xl-3 mb-3">
         <a href="{{ path('cookiebar') }}">
-          <img class="img-thumbnail mb-3" src="https://italia.github.io//bootstrap-italia/docs/esempi/screenshots/cookiebar.png" alt="Cookiebar screenshot" width="960" height="600">
+          <img class="img-thumbnail mb-3" src="screenshots/cookiebar.png" alt="Cookiebar screenshot" width="960" height="600">
           <h5 class="mb-1">Cookiebar</h5>
         </a>
         <p class="text-muted">Una barra di avviso sui cookie basata su un cookie nominato 'cookies_consent'.</p>
       </div>
     
-  
-    
       <div class="col-sm-6 col-md-4 col-xl-3 mb-3">
         <a href="{{ path('offcanvas') }}">
-          <img class="img-thumbnail mb-3" src="https://italia.github.io//bootstrap-italia/docs/esempi/screenshots/offcanvas.png" alt="Offcanvas screenshot" width="960" height="600">
+          <img class="img-thumbnail mb-3" src="screenshots/offcanvas.png" alt="Offcanvas screenshot" width="960" height="600">
           <h5 class="mb-1">Offcanvas</h5>
         </a>
         <p class="text-muted">Trasforma la tua barra di navigazione in un menu a comparsa.</p>
       </div>
     
-  
-    
       <div class="col-sm-6 col-md-4 col-xl-3 mb-3">
         <a href="{{ path('comuni') }}">
-          <img class="img-thumbnail mb-3" src="https://italia.github.io//bootstrap-italia/docs/esempi/screenshots/comuni.png" alt="Comuni screenshot" width="960" height="600">
+          <img class="img-thumbnail mb-3" src="screenshots/comuni.png" alt="Comuni screenshot" width="960" height="600">
           <h5 class="mb-1">Comuni</h5>
         </a>
         <p class="text-muted">Pagina di esempio per il sito di un comune.</p>
+      </div>
+    </div>
+
+    <h2>Esempi da getbootstrap.com:</h2>
+
+    <div class="row">
+      <div class="col-sm-6 col-md-4 col-xl-3 mb-3">
+        <a href="{{ path('starter') }}">
+          <img class="img-thumbnail mb-3" src="screenshots/starter.png" alt="Starter template screenshot" width="960" height="600">
+          <h5 class="mb-1">Starter template</h5>
+        </a>
+        <p class="text-muted">Nothing but the basics: compiled CSS and JavaScript.</p>
+      </div>
+
+      <div class="col-sm-6 col-md-4 col-xl-3 mb-3">
+        <a href="{{ path('jumbotron') }}">
+          <img class="img-thumbnail mb-3" src="screenshots/jumbotron.png" alt="Jumbotron screenshot" width="960" height="600">
+          <h5 class="mb-1">Jumbotron</h5>
+        </a>
+        <p class="text-muted">Build around the jumbotron with a navbar and some basic grid columns.</p>
       </div>
     </div>
 
