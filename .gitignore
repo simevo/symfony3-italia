@@ -4,3 +4,4 @@ var/bootstrap.php.cache
 var/cache/dev/
 var/logs/dev.log
 vendor/
+.directory
