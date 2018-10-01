@@ -1,7 +1,32 @@
 {% extends 'base.html.twig' %}
 {% block title %} | Tipografia{% endblock %}
 {% block body %}
- <div class="container">
+    <header class="bg-primary">
+      <div class="container text-white pt-4 pb-4">
+        <h1 class="display-1 display-1 mb-0">Bootstrap Italia Kitchen Sink</h1>
+        <p class="m-0 ml-1">Visualizza quasi tutti i componenti di Bootstrap italia in una singola pagina.</p>
+        <p class="ml-1 mb-3">Particolarmente utile per la personalizzazione del tema grafico e la creazione di nuove pagine.</p>
+      </div>
+    </header>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary sticky-top">
+      <div class="container">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-item nav-link text-white pl-3 pr-3 mr-3 border border-white" href="#tipografia">Tipografia</a>
+            <a class="nav-item nav-link text-white pl-3 pr-3 mr-3 border border-white" href="#tabelle">Tabelle</a>
+            <a class="nav-item nav-link text-white pl-3 pr-3 mr-3 border border-white" href="#griglie">Griglie</a>
+            <a class="nav-item nav-link text-white pl-3 pr-3 mr-3 border border-white" href="#form">Elementi Form</a>
+            <a class="nav-item nav-link text-white pl-3 pr-3 mr-3 border border-white" href="#componenti">Componenti</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container">
       <section>
         <h2 id="tipografia" class="pt-5 pb-3">Tipografia</h2>
         <div class="card mb-3">
