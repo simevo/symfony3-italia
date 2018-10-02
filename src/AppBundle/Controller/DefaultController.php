@@ -75,5 +75,21 @@ class DefaultController extends Controller
         return $this->render('default/jumbotron.html.twig', [
         ]);
     }
+    /**
+     * @Route("/album", name="album")
+     */       
+    public function album()
+    {
+        return $this->render('default/album.html.twig', [
+        ]);
+    }
+    /**
+     * @Route("/blog", name="blog")
+     */       
+    public function blog()
+    {
+        return $this->render('default/blog.html.twig', [
+        ]);
+    }         
 }
 
