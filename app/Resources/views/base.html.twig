@@ -5,13 +5,11 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     
-    <!-- CSS -->
-    <link rel="stylesheet" href="{{ asset('css/blog.css') }}" />
-    <link rel="stylesheet" href="{{ asset('css/starter-template.css') }}" />
-    <link rel="stylesheet" href="{{ asset('css/jumbotron.css') }}" />
+    <!-- CSS -->   
+    {% block stylesheets %}
     <link rel="stylesheet" href="{{ asset('css/bootstrap-italia.min.css') }}" />
-    <link rel="stylesheet" href="{{ asset('css/italia-icon-font.css') }}" /><!-- opzionale -->    
-    {% block stylesheets %}{% endblock %}
+    <link rel="stylesheet" href="{{ asset('css/italia-icon-font.css') }}" /><!-- opzionale --> 
+    {% endblock %}
 
     <title>symfony3-italia{% block title %}{% endblock %}</title>
     <link rel="icon" type="image/x-icon" href="{{ asset('favicon.ico') }}" />
